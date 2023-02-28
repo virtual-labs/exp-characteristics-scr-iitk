@@ -1,0 +1,56 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. A thyristor (SCR) is a",
+      "answers": {
+        "a": " P-N-P device",
+        "b": "N-P-N device",
+        "c": "P-N-P-N device",
+        "d": "P-N device"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. Which terminal does not belong to the SCR?",
+      "answers": {
+        "a": "  Anode",
+        "b": "Gate",
+        "c": "Base",
+        "d": "Cathode"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. An SCR is a ",
+      "answers": {
+        "a": "four-layer, four junction devices",
+        "b": "four-layer, three junction devices",
+        "c": "four-layer, two junction devices",
+        "d": "three-layer, single junction device"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}
