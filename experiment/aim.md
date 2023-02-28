@@ -1,1 +1,2 @@
-### Aim of the experiment
+To plot V-I characteristics of SCR.
+
