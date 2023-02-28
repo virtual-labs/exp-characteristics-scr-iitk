@@ -39,7 +39,7 @@
       "question": "3. The static V-I curve for the SCR is plotted for ",
       "answers": {
         "a": "Ia (anode current) vs Ig (gate current), Va (anode – cathode voltage) as a parameter",
-        "b": "	Ia vs Va with Ig as a parameter",
+        "b": "Ia vs Va with Ig as a parameter",
         "c": "Va vs Ig with Ia as a parameter",
         "d": "Ig vs Vg with Ia as a parameter "
       },
