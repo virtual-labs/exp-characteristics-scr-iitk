@@ -2,15 +2,15 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1. Choose the false Statment",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "SCR is a bidirectional device",
+        "b": "SCR is a controlled device",
+        "c": "In SCR the gate is the controlling terminal",
+        "d": "SCR are used for high-power applications"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "a": "It is a unidirectional device, current only flows from anode to cathode",
         "b": "Explanation 2",
         "c": "Explanation 2",
         "d": "Explanation 2"
@@ -19,20 +19,37 @@
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "2. In the SCR structure the gate terminal is located",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "near the anode terminal",
+        "b": "near the cathode terminal",
+        "c": "in between the anode & cathode terminal",
+        "d": "none of the mentioned "
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "The gate is located near the cathode, because it allows fast turning on of the<br> device when the gate signal is applied by forward basing the second junction",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+     {
+      "question": "3. The static V-I curve for the SCR is plotted for ",
+      "answers": {
+        "a": "Ia (anode current) vs Ig (gate current), Va (anode – cathode voltage) as a parameter",
+        "b": "	Ia vs Va with Ig as a parameter",
+        "c": "Va vs Ig with Ia as a parameter",
+        "d": "Ig vs Vg with Ia as a parameter "
+      },
+      "explanations": {
+        "a": "The curve is plotted for Ia vs Va for different values of gate current Ig",
         "b": "Explanation 2",
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
-      "correctAnswer": "c",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
