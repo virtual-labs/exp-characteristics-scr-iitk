@@ -1,0 +1,100 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. Choose the false statement",
+      "answers": {
+        "a": "SCR is a bidirectional device",
+        "b": "SCR is a controlled device",
+        "c": "In SCR the gate is the controlling terminal",
+        "d": "SCRs are used for high-power applications"
+      },
+      "explanations": {
+        "a": "It is a unidirectional device; current only flows from anode to cathode.",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. In the SCR structure, the gate terminal is located",
+      "answers": {
+        "a": "near the anode terminal",
+        "b": "near the cathode terminal",
+        "c": "in between the anode & cathode terminal",
+        "d": "none of the mentioned"
+      },
+      "explanations": {
+        "a": "Explanation 1 <a href='www.google.com'>here</a>",
+        "b": "The gate is located near the cathode, allowing fast turning on of the device when the gate signal is applied by forward biasing the second junction.",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. The static V-I curve for the SCR is plotted for",
+      "answers": {
+        "a": "Ia (anode current) vs Ig (gate current), Va (anode – cathode voltage) as a parameter",
+        "b": "Ia vs Va with Ig as a parameter",
+        "c": "Va vs Ig with Ia as a parameter",
+        "d": "Ig vs Vg with Ia as a parameter"
+      },
+      "explanations": {
+        "a": "The curve is plotted for Ia vs Va for different values of gate current Ig.",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. What is the function of the gate in an SCR?",
+      "answers": {
+        "a": "Controls conduction",
+        "b": "Acts as an output",
+        "c": "Maintains the current",
+        "d": "Provides insulation"
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "5. In what mode does an SCR operate if the gate is not triggered?",
+      "answers": {
+        "a": "Forward conduction",
+        "b": "Forward blocking",
+        "c": "Reverse blocking",
+        "d": "Saturation"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "6. Which of these parameters affects the holding current in an SCR?",
+      "answers": {
+        "a": "Temperature",
+        "b": "Gate current",
+        "c": "Anode voltage",
+        "d": "All of the above"
+      },
+      "correctAnswer": "d",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "7. How does increasing gate current influence SCR conduction?",
+      "answers": {
+        "a": "Reduces holding current",
+        "b": "Increases holding current",
+        "c": "No effect",
+        "d": "Lowers threshold voltage"
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
+    }
+  ]
+}
