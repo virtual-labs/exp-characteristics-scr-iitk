@@ -9,11 +9,11 @@
         "c": "P-N-P-N device",
         "d": "P-N device"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      "Explanations": {
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation -  An SCR (thyristor) is a four-layer semiconductor device with alternating P and N layers, forming a P-N-P-N structure.",
+        "d": "Explanation"
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
@@ -26,11 +26,11 @@
         "c": "Base",
         "d": "Cathode"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      "Explanations": {
+        "a": "Explanation",
+        "b": "Explanation",
+        "c": "Explanation - The SCR has three terminals—Anode, Cathode, and Gate—while Base is a terminal found in transistors, not SCRs.",
+        "d": "Explanation"
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
@@ -43,11 +43,11 @@
         "c": "four-layer, two junction devices",
         "d": "three-layer, single junction device"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      "Explanations": {
+        "a": "Explanation",
+        "b": "Explanation - An SCR consists of four semiconductor layers (PNPN) and three junctions, allowing it to control current flow when triggered.",
+        "c": "Explanation",
+        "d": "Explanation"
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
