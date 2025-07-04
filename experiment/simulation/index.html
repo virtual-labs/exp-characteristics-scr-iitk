@@ -2,25 +2,22 @@
 <html>
 <head>
 	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 	<div id="mySidepanel" class="sidepanel">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
         <ul id="lists">
             <h2>Procedure to Study the VI characteristics of SCR</h2>
-            <li>Step 1: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro fuga, voluptatibus a quisquam
-                optio eos nemo dolores doloremque accusantium eaque iure? Qui ab voluptatum quis modi assumenda, porro
-                repellendus tempora?</li>
-            <li>Step 2: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet nisi minima, totam laborum
-                cupiditate facilis dolor iure unde incidunt ad voluptate vero est. Aliquam officiis dignissimos, dicta
-                numquam consectetur totam!</li>
-            <li>Step 3: Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus asperiores accusantium
-                voluptatem sint aspernatur molestias dolore voluptate doloremque consectetur. Accusantium totam, quas
-                commodi ipsa voluptatem dolore hic animi obcaecati. Reiciendis!</li>
-            <li>Step 4: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, commodi consectetur?
-                Exercitationem rerum, fuga harum adipisci iure maxime reprehenderit blanditiis cum ratione dolores aut
-                voluptate quibusdam eum totam in. Et?</li>
+            <li>Set up the circuit on a breadboard by connecting the SCR, resistor, power supply, and multimeter as shown in the circuit diagram.</li>
+            <li>Turn on the power supply and adjust it to the desired voltage level. Measure the voltage using a multimeter.</li>
+            <li>Gradually increase the voltage while measuring the current through the SCR using the multimeter. Note down the values of voltage and current.</li>
+            <li>Repeat step 3 for different voltage levels, recording the corresponding current values.</li>
+            <!-- <li>Plot the recorded values on a graph, with voltage on the x-axis and current on the y-axis. This will give you the V-I (voltage-current) characteristic curve of the SCR.</li>
+            <li>You can also use an oscilloscope to observe the behavior of the SCR in response to different voltage levels. Connect the oscilloscope across the SCR to observe the waveform of the voltage and current.</li>
+            <li>Note any interesting observations such as the forward and reverse blocking voltage, the forward and reverse breakover voltage, and the holding current of the SCR.</li>
+            <li>Analyze the plotted V-I characteristics to understand the behavior of the SCR under different voltage levels and currents.</li>
+            <li>Make sure to disconnect the power supply and other equipment once you have completed the experiment.</li> -->
         </ul>
     </div>
     <button class="openbtn" onclick="openNav()">☰ Open Procedure</button>
@@ -4119,8 +4116,12 @@ pwADAP7Lc8WYWrtCAAAAAElFTkSuQmCC" transform="matrix(0.24 0 0 0.24 296.64 225.36)
                             </g>
                         </g>
                     </g>
+                    <!-- <rect x="498.99" y="42.66" class="st21" width="56.04" height="15.95" />
+                    <text transform="matrix(1 0 0 1 520.2069 49.8621)" class="st57 st26 st58">0.0 mA</text> -->
+
                     <rect x="498.99" y="42.66" class="st21" width="56.04" height="15.95" />
-                    <text transform="matrix(1 0 0 1 520.2069 49.8621)" class="st57 st26 st58">0.0 mA</text>
+                    <text id="current_display" transform="matrix(1 0 0 1 520.2069 49.8621)" class="st57 st26 st58" style="font-size:8px;">0.0 mA</text>
+
                 </g>
                 <g>
                     <path class="st46" d="M555.79,65.06c0,2.3-1.89,4.19-4.19,4.19c-2.3,0-4.19-1.89-4.19-4.19c0-2.3,1.89-4.19,4.19-4.19
@@ -4155,8 +4156,12 @@ pwADAP7Lc8WYWrtCAAAAAElFTkSuQmCC" transform="matrix(0.24 0 0 0.24 296.64 225.36)
                 <line class="st113" x1="240.96" y1="149.41" x2="248.53" y2="141.83" />
                 <line class="st113" x1="241.02" y1="90.86" x2="209.91" y2="90.86" />
             </g>
-            <text transform="matrix(1 0 0 1 389.8036 54.0623)" class="st57 st26 st58">0 V</text>
+            <!-- <text transform="matrix(1 0 0 1 389.8036 54.0623)" class="st57 st26 st58">0 V</text>
+            <rect x="72.17" y="431.7" class="st21" width="40.21" height="22.47" /> -->
+
+           <text id="v_measured_display" transform="matrix(1 0 0 1 389.8036 54.0623)" class="st57 st26 st58" style="font-size:8px;">0 V</text>
             <rect x="72.17" y="431.7" class="st21" width="40.21" height="22.47" />
+
             <text transform="matrix(1 0 0 1 85.392 439.7361)" class="st25 st84 st114">B1</text>
             <rect x="378.06" y="429.92" class="st21" width="40.21" height="22.47" />
             <text transform="matrix(1 0 0 1 390.2758 437.9529)" class="st25 st84 st114">B2</text>
@@ -4260,7 +4265,7 @@ pwADAP7Lc8WYWrtCAAAAAElFTkSuQmCC" transform="matrix(0.24 0 0 0.24 296.64 225.36)
             <text transform="matrix(1 0 0 1 253.1087 229.6185)" class="st84 st127">G</text>
         </svg>
 
-        <div class="output">
+        <!-- <div class="output">
             <section class="sectionclass">
                 <div style="margin-top: 40px;">
                     <span id="span1">Observation Table</span><span id="span2"> Input Voltage</span>
@@ -4287,10 +4292,66 @@ pwADAP7Lc8WYWrtCAAAAAElFTkSuQmCC" transform="matrix(0.24 0 0 0.24 296.64 225.36)
                             <li></li>
                             <li></li>
                         </ul>
-                    </div>
+                    </div> -->
+
+                   <div class="output">
+    <section class="sectionclass">
+        <div style="margin-top: 40px;">
+            <span id="span1">Observation Table</span>
+            <!-- <span id="span2" style="margin-left: 40px;">Input Voltage</span> -->
+        </div>
+
+        <div id="flexing" style="display: flex; gap: 40px;">
+            <!-- Table Section -->
+            <div>
+                <table id="tab1" style="margin-top: 20px; border-collapse: collapse;" border="1">
+                    <tr>
+                        <th>S.No</th>
+                        <th>DC_Voltage_2</th>
+                        <th>V_Measured</th>
+                        <th>Current</th>
+                    </tr>
+                </table>
+                <button onclick="addRow()" style="margin-top: 20px; margin-left: 40px;">Add Row</button>
+            </div>
+
+            <!-- Input Section -->
+            <div id="inputsec">
+                <div style="margin-top: 10px;">
+                    <label for="voltage_2" style="margin-left: 20px;">DC_VOLTAGE_2</label><br />
+                    <input type="range" min="0.0" max="30.0" step="0.1" value="0.0"
+                        class="slider" id="voltage_2" oninput="getVoltage(this.id)">
+                    <span id="voltage-2-display">0 V</span>
+                </div>
+
+                <!-- <div style="margin-top: 20px; margin-left: 20px;">
+                    <strong>V_Measured:</strong> <span id="v_measured_display">0 V</span><br />
+                    <strong>Current:</strong> <span id="current_display">0 mA</span>
+                </div> -->
+            </div>
+        </div>
+    </section>
+</div>
+
+                <!-- New Inputs -->
+                <!-- <div style="margin-top: 20px;">
+                    <label for="V_measured_input" style="display:block; margin-top:10px;">V_Measured:</label>
+                    <input type="number" id="V_measured_input" step="0.1" placeholder="e.g. 12.3">
+                </div>
+
+                <div style="margin-top: 10px;">
+                    <label for="current_input" style="display:block; margin-top:10px;">Current:</label>
+                    <input type="number" id="current_input" step="0.01" placeholder="e.g. 0.45">
+                </div> -->
+            </div>
+        </div>
+    </section>
+</div>
+
+
             </section>
         </div>
     </div>
-        <script src="./js/main.js"></script>
+        <script src="js/main.js"></script>
 </body>
 </html>
