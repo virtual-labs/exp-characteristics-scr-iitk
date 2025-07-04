@@ -26,3 +26,4 @@ SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
 1 |Manas Verma |Student |Information Technology |Rajkiya Engineering College Banda | manasverma012345@gmail.com 
 2 |Krishna Maddheshiya|Student |Electrical Engineering |Rajkiya Engineering College Banda|Krishna70680@gmail.com
+3 |Sudhanshu Mishra|Student |Electrical Engineering |Rajkiya Engineering College Banda|2307340130065@recbanda.ac.in
