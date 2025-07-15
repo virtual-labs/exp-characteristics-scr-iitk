@@ -1,0 +1,107 @@
+.svgclass {
+    height: auto;
+    border: 4px solid rgb(25, 78, 134);
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px 4px black;
+}
+
+.output {
+    padding-top: 20px;
+}
+
+.sectionclass {
+    background-color: rgba(252, 234, 153, 0.651);
+    height: 550px;
+    border-radius: 25px;
+    width: 100%;
+    border: 2px solid black;
+}
+#inputsec{
+margin-left: 270px ;
+margin-top:40px;
+  }
+
+#flexing {
+    display: flex;
+    flex-direction: row;
+}
+.slider{
+    width:200px;
+  }
+#tab1 {
+    margin-top: 5px;
+    margin-left: 40px;
+    width: 150%;
+    border: 2px solid black;
+
+}
+td {
+    background-color: #96D4D4;
+}
+#span1{
+    font-size: 20px;
+    margin-left:190px;
+    margin-top: 100px;
+}
+#span2{
+    font-size: 20px;
+    margin-left:400px;
+    margin-top: 100px;
+}
+.sidepanel  {
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    height: 250px;
+    top: 0;
+    right: 0;
+    background-color: #f04747;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 30x;
+  }
+  #lists{
+    margin-left: 20px;
+    padding: 8px 8px 8px 32px;
+    color:white;
+  }
+  .sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff7f7;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidepanel a:hover {
+    color: #6b6969;
+  }
+  
+  .sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #e14545;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color:#444;
+  }
+  li{
+    margin:10px;
+  }

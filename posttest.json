@@ -1,0 +1,100 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. A thyristor (SCR) is a",
+      "answers": {
+        "a": " P-N-P device",
+        "b": "N-P-N device",
+        "c": "P-N-P-N device",
+        "d": "P-N device"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation -  An SCR (thyristor) is a four-layer semiconductor device with alternating P and N layers, forming a P-N-P-N structure.",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. Which terminal does not belong to the SCR?",
+      "answers": {
+        "a": "  Anode",
+        "b": "Gate",
+        "c": "Base",
+        "d": "Cathode"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation - The SCR has three terminals—Anode, Cathode, and Gate—while Base is a terminal found in transistors, not SCRs.",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. An SCR is a ",
+      "answers": {
+        "a": "four-layer, four junction devices",
+        "b": "four-layer, three junction devices",
+        "c": "four-layer, two junction devices",
+        "d": "three-layer, single junction device"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation - An SCR consists of four semiconductor layers (PNPN) and three junctions, allowing it to control current flow when triggered.",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. Which component is responsible for triggering the SCR into conduction?",
+      "answers": {
+        "a": "Cathode",
+        "b": "Gate",
+        "c": "Anode",
+        "d": "Base"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "5. What happens to an SCR when the holding current drops below a certain level?",
+      "answers": {
+        "a": "It remains in conduction",
+        "b": "It turns off",
+        "c": "It operates as a diode",
+        "d": "It switches polarity"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "6. At what condition does the SCR enter a forward blocking mode?",
+      "answers": {
+        "a": "High gate voltage",
+        "b": "No applied voltage",
+        "c": "Forward voltage below the breakover point",
+        "d": "Anode-cathode current exceeds the limit"
+      },
+      "correctAnswer": "c",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "7. How does the SCR primarily differ from a diode in its structure?",
+      "answers": {
+        "a": "Additional gate terminal",
+        "b": "Less power capacity",
+        "c": "Fewer layers",
+        "d": "Single junction"
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
+    }
+  ]
+}
