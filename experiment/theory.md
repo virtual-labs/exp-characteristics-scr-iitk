@@ -4,7 +4,7 @@ A V-I Characteristic of SCR (Silicon Controlled Rectifier) is the voltage curren
 
 <h3>b) Circuit Diagram for Obtaining V-I Characteristics of SCR: -</h3>
 To obtain V-I characteristics of SCR, its anode and cathode are connected to the source through the load. The Gate and cathode are fed through a separate source which is meant to provide positive gate current from gate to cathode. The elementary circuit diagram for obtaining V-I characteristics of SCR is shown below.<br>
-In the above diagram, Anode and Cathode terminals A & K are connected to variable voltage source E through Load and Gate terminal G is connected to the source Es to provide positive gate current through G to K when switch S is closed. Va and Ia represent the voltage across the anode to cathode terminals and current through the SCR. A plot between Va and Ia is drawn by varying the source voltage E and noting the corresponding current through SCR.<br><br> This plot gives the V-I characteristics of SCR.<br>
+In the below diagram, Anode and Cathode terminals A & K are connected to variable voltage source E through Load and Gate terminal G is connected to the source E<sub>s</sub> to provide positive gate current through G to K when switch S is closed. V<sub>a</sub> and I<sub>a</sub> represent the voltage across the anode to cathode terminals and current through the SCR. A plot between Va and Ia is drawn by varying the source voltage E and noting the corresponding current through SCR.<br><br> This plot gives the V-I characteristics of SCR.<br>
 
 <img src ="images/Screenshot_20230209_042624.png" width="400" hight="400"><br><br>
                                                                                                      
