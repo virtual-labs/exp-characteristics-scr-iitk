@@ -7,7 +7,7 @@ The curve helps us understand:<br>
 3.The forward conduction region (SCR behaves like a closed switch).<br>
 4.The reverse blocking region (like a diode in reverse bias).
 
-<br> Fig. 1: Structure of an SCR <br>
+<br> Fig. 1: Structure of SCR <br>
 
 <img src ="images/SCR IMAGE .png" width="400" hight="400"><br><br>
 
