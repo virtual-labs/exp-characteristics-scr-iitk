@@ -38,14 +38,14 @@
     {
       "question": "3. The static V-I curve for the SCR is plotted for",
       "answers": {
-        "a": "Ia (anode current) vs Ig (gate current), Va (anode – cathode voltage) as a parameter",
-        "b": "Ia vs Va with Ig as a parameter",
-        "c": "Va vs Ig with Ia as a parameter",
-        "d": "Ig vs Vg with Ia as a parameter"
+        "a": "I<sub>a</sub> (anode current) vs Ig (gate current), V<sub>a</sub> (anode – cathode voltage) as a parameter",
+        "b": "I<sub>a</sub> vs V<sub>a</sub> with I<sub>g</sub> as a parameter",
+        "c": "V<sub>a</sub> vs I<sub>g</sub> with I<sub>a</sub> as a parameter",
+        "d": "I<sub>g</sub> vs V<sub>g</sub> with I<sub>a</sub> as a parameter"
       },
       "explanations": {
-        "a": "The curve is plotted for Ia vs Va for different values of gate current Ig.",
-        "b": "Explanatation - The static V-I curve of an SCR plots anode current (Ia) versus anode-cathode voltage (Va), showing how the device behavior changes with different gate currents (Ig).",
+        "a": "The curve is plotted for I<sub>a</sub> vs V<sub>a</sub> for different values of gate current I<sub>g</sub>.",
+        "b": "Explanatation - The static V-I curve of an SCR plots anode current (I<sub>a</sub>) versus anode-cathode voltage (V<sub>a</sub>), showing how the device behavior changes with different gate currents (I<sub>g</sub>).",
         "c": "Explanation",
         "d": "Explanation"
       },
