@@ -2,7 +2,7 @@ To plot the V-I characteristics of an SCR (Silicon Controlled Rectifier), you wi
 A). SCR   <br>
 B). Power supply  <br>
 C). Resistor    <br>
-D). Multimeter   <br>
+D). Two ammeters and One voltmeter   <br>
 E). Oscilloscope   <br>
 F). Breadboard    <br>
 G). Connecting wires   <br><br>
@@ -17,3 +17,4 @@ Here are the steps to follow:<br>
 7. Note any interesting observations such as the forward and reverse blocking voltage, the forward and reverse breakover voltage, and the holding current of the SCR.<br>
 8. Analyze the plotted V-I characteristics to understand the behavior of the SCR under different voltage levels and currents.<br>
 9. Make sure to disconnect the power supply and other equipment once you have completed the experiment.<br>
+
